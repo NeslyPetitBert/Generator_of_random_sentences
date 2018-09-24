@@ -1,0 +1,99 @@
+/*
+Ce fichier contient toute la mise en forme de la page vue.
+*/
+
+
+
+
+/* Reset CSS pour supprimer la mise en forme par défaut.*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Body => Le corps de la page*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #595F61;
+    background-color: #EDF6E9;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center; 
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: 'Lora', serif;
+    color: #F6546A;
+    padding: 5px;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; 
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: #6495ED;
+    display: inline-block;
+    margin-top: 45px;
+    padding: 5px;
+}
+/*Le conteneur principal*/
+#container{
+
+}
+
+/*Le conteneur imbriqué*/
+#phraseP{
+    background-color: rgba(255, 77, 0, 0.11);
+    border-radius: 5px;
+    width: 60%;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-left : auto;
+    padding: 50px;
+    
+    
+}
+
+
+/*Le paragraphe*/
+#phraseAleatoireGeneree{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center; 
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: #293249;
+    margin-top: 45px;
+    padding: 5px;
+}
+
+
+/*Le bouton*/
+
+button{
+    background-color: #45D6D8;
+    width: 230px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #6F511B;
+    text-transform: uppercase;
+    padding: 5px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: #E1480F;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.clearB{
+    clear: both;
+}
